@@ -1,0 +1,17 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Poppins, sans-serif;
+	scroll-behavior: smooth;
+}
+
+:root {
+	--secondary-blue: #3bdcdc;
+	--primary-blue: #217cd9;
+	--text-blue: #0d3858;
+	--green: #2eb694;
+	--span: #e96c22;
+	--cta: #d8a21a;
+	--yellow: #f9f871;
+}
