@@ -1,45 +1,42 @@
 <script>
-
-import FB from "../assets/fb.png";
-import lin from "../assets/lin.png";
-import insta from "../assets/insta.png";
-
-
-
+	import FB from '../assets/fb.png';
+	import lin from '../assets/lin.png';
+	import insta from '../assets/insta.png';
 </script>
 
 <section id="contact">
 	<h2>Obtenez votre devis gratuit</h2>
-	
-	<form name="contact" method="POST" netlify-honeypot="bot-field"
-	data-netlify="true" netlify>
-    <input type="hidden" name="form-name" value="contact" />
-    
-    <label>Nom :
-      <input type="text" name="name"  required />
-    </label><br />
-    
-    <label>Email :
-      <input type="email" name="email" required />
-    </label><br />
-    
-    <label>Téléphone :
-      <input type="tel" name="phone" required />
-    </label><br />
-    
-    <label>Votre projet :
-      <textarea name="message"  rows="4" required></textarea>
-    </label><br />
-    
-    <button class="cta" type="submit">Envoyer</button>
-  </form>
 
+	<form name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true" netlify>
+		<input type="hidden" name="form-name" value="contact" />
 
+		<label
+			>Nom :
+			<input type="text" name="name" required />
+		</label><br />
+
+		<label
+			>Email :
+			<input type="email" name="email" required />
+		</label><br />
+
+		<label
+			>Téléphone :
+			<input type="tel" name="phone" required />
+		</label><br />
+
+		<label
+			>Votre projet :
+			<textarea name="message" rows="4" required></textarea>
+		</label><br />
+
+		<button class="cta" type="submit">Envoyer</button>
+	</form>
 
 	<div class="wrapper__socialMedia">
-		<a href="https://www.linkedin.com/in/yannick-barraud-06546b283/"><img src={FB} alt="facebook"></a>
-		<a href="https://www.instagram.com/solairconfort/"><img src={lin} alt="linkedIn"></a>
-		<a href="https://www.facebook.com/profile.php?id=61566251125721">	<img src={insta} alt="instagram"></a>
+		<a href="https://www.linkedin.com/in/yannick-barraud-06546b283/"><img src={FB} alt="facebook" /></a>
+		<a href="https://www.instagram.com/solairconfort/"><img src={lin} alt="linkedIn" /></a>
+		<a href="https://www.facebook.com/profile.php?id=61566251125721"> <img src={insta} alt="instagram" /></a>
 	</div>
 	<p>
 		<strong>SolairConfort</strong> – 23 Rue Louis Pergaud 42240 UNIEUX<br />
@@ -58,7 +55,7 @@ import insta from "../assets/insta.png";
 		height: 100%;
 		padding: 20px;
 		gap: 20px;
-		background: linear-gradient(var(--text-blue), var(--primary-blue)) ;
+		background: linear-gradient(var(--text-blue), var(--primary-blue));
 		padding: 2rem;
 		width: 100%;
 		margin: 0 auto;
@@ -107,7 +104,7 @@ import insta from "../assets/insta.png";
 		background-color: var(--green);
 	}
 	p {
-	color: white;
+		color: white;
 		text-align: center;
 		font-size: 0.9rem;
 		margin-top: 1rem;
@@ -126,7 +123,7 @@ import insta from "../assets/insta.png";
 	textarea::placeholder {
 		padding: 10px;
 	}
-.wrapper__socialMedia {
+	.wrapper__socialMedia {
 		display: flex;
 		gap: 20px;
 		margin-top: 20px;
