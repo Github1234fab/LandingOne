@@ -40,7 +40,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-color: transparent;
+        background: linear-gradient(var(--text-blue), var(--primary-blue));
 		height: 100%;
 		position: relative;
 		z-index: 1;

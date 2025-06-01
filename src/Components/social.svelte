@@ -81,7 +81,7 @@
       color: white;
       border: none;
       padding: 0.5rem 1rem;
-      margin: 0 0.5rem;
+      margin: 0.5rem 0.5rem;
       border-radius: 6px;
       cursor: pointer;
     }

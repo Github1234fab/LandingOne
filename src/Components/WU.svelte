@@ -2,24 +2,29 @@
 	import Tools from '../assets/Tools_high.png';
 	import Solar from '../assets/Solar_high.png';
 	import Hands from '../assets/hand_high.png';
+	import Yannick from "../assets/Yannick.jpg";
 </script>
 
 <section class="social">
 	<h2 class="social-title">Pourquoi choisir SolairConfort ?</h2>
 	<div class="container__wrapper">
 		<div class="wrapper__p">
+			<h2>17 ans</h2>
 			<img src={Solar} alt="" />
 			Niché au coeur de la Loire. L'entreprise SolairConfort est experte dans le domaine du solaire depuis 17 ans.
 		</div>
 		<div class="wrapper__p">
+			<h2>+ de 100 chantiers par année</h2>
 			<img src={Tools} alt="" />
 			Nous réalisons plus d'une centaine d'installations par année entre Loire et Rhône, pour les particuliers, les collectivités et les entreprises.
 		</div>
 		<div class="wrapper__p">
+			<h2>Suivis et garantie</h2>
 			<img src={Hands} alt="" />
 			Faire confiance à SolairConfort, c'est investir dans des systèmes photovoltaïques fiables et de grande qualité.
 		</div>
 	</div>
+	<img class="img-Yannick" src={Yannick} alt="">
 
 	<a class="cta" href="/#contact">Parlez-nous de votre projet</a>
 </section>
@@ -67,6 +72,13 @@
 		border-radius: 10px;
 		max-height: 400px;
 		min-height: 400px;
+	}
+	.img-Yannick{
+		width: 300px;
+		height: 300px;
+		border-radius: 50%;
+		object-fit: cover;
+		margin-top: 20px;
 	}
 	
 	.cta {

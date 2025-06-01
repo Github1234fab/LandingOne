@@ -97,6 +97,7 @@
 		margin-top: 2rem;
 		border-radius: 10px;
 		font-size: 1rem;
+		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.313);
 	}
 
 	button.cta:hover {
@@ -134,6 +135,7 @@
 		transition: transform 0.3s ease;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.271);
 		border-radius: 10px;
+		border: 1px solid white
 	}
 	img:hover {
 		transform: scale(1.1);

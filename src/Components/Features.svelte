@@ -67,11 +67,12 @@
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		gap: 20px;
+		gap: 5px;
 		z-index: 2;
 		color: white;
 		height: 100%;
 		z-index: 5;
+        width: 80%;
 	}
 
 	.features-offre {
@@ -101,15 +102,15 @@
 	}
 
 	.offer-card {
-		padding: 30px;
+		padding: 20px;
 		background-color: transparent;
 		-webkit-backdrop-filter: blur(20px);
 		backdrop-filter: blur(20px);
 		border-radius: 12px;
 		border: 1px solid white;
 		text-align: center;
-        min-height: 500px;
-		flex: 1 1 calc(50% - 10px);
+        min-height: 450px;
+		flex: 1 1 calc(50% - 30px);
 		box-sizing: border-box;
 	}
 	.imgA {
@@ -171,7 +172,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin: 0 auto;
+		margin: 20px auto;
 		width: 100%;
 		z-index: 5;
 	}
@@ -188,7 +189,7 @@
 		border-radius: 10px;
 		text-decoration: none;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.313);
-		margin: 100px;
+	
 		transition: 0.3s ease-in-out;
 	}
 	.cta:hover {
