@@ -1,13 +1,13 @@
-<!-- <script>
+<script>
 	import FB from '../assets/fb.png';
 	import lin from '../assets/lin.png';
 	import insta from '../assets/insta.png';
 </script>
 
 <section id="contact">
-	<h2>Obtenez votre devis gratuit</h2> -->
+	<h2>Obtenez votre devis gratuit</h2>
 
-	<form name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" netlify>
+	<form name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
 		<label
 			>Nom :
@@ -31,7 +31,7 @@
 
 		<button class="cta" type="submit">Envoyer</button>
 	</form>
-<!-- 
+
 	<div class="wrapper__socialMedia">
 		<a href="https://www.linkedin.com/in/yannick-barraud-06546b283/"><img src={FB} alt="facebook" /></a>
 		<a href="https://www.instagram.com/solairconfort/"><img src={lin} alt="linkedIn" /></a>
@@ -42,10 +42,10 @@
 		Tel : <a href="tel:0673209421">06 73 20 94 21</a><br />
 		Email : <a href="mailto:contact@solairconfort.fr">contact@solairconfort.fr</a>
 	</p>
-</section> -->
+</section>
 
 <style>
-	/* #contact {
+	#contact {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -63,7 +63,7 @@
 	h2 {
 		color: white;
 		text-align: center;
-	} */
+	}
 
 	form {
 		display: flex;
@@ -102,7 +102,7 @@
 	button.cta:hover {
 		background-color: var(--green);
 	}
-	/* p {
+	p {
 		color: white;
 		text-align: center;
 		font-size: 0.9rem;
@@ -111,7 +111,7 @@
 	a {
 		color: var(--yellow);
 		text-decoration: none;
-	} */
+	}
 	textarea {
 		padding: 10px;
 		border-radius: 5px;
@@ -122,7 +122,7 @@
 	textarea::placeholder {
 		padding: 10px;
 	}
-	/* .wrapper__socialMedia {
+	.wrapper__socialMedia {
 		display: flex;
 		gap: 20px;
 		margin-top: 20px;
@@ -137,7 +137,7 @@
 	}
 	img:hover {
 		transform: scale(1.1);
-	} */
+	}
 	@media screen and (max-width: 768px) {
 		form {
 			width: 90%;
