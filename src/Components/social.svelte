@@ -1,7 +1,7 @@
 <script>
 	import PhotoClient from '../assets/Photo-client.png';
-    import PhotoClient2 from '../assets/Photo-client2.png';
-    import PhotoClient3 from '../assets/Photo-client3.png';
+    import PhotoClient2 from '../assets/photo-client2.png';
+    import PhotoClient3 from '../assets/photo-client3.png';
 
     let current = 0;
   
