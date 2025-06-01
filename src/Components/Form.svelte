@@ -12,7 +12,7 @@ import insta from "../assets/insta.png";
 	<h2>Obtenez votre devis gratuit</h2>
 	
 	<form name="contact" method="POST" netlify-honeypot="bot-field"
-	data-netlify="true" >
+	data-netlify="true" netlify>
     <input type="hidden" name="form-name" value="contact" />
     
     <label>Nom :

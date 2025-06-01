@@ -11,7 +11,7 @@
 	<HeroSection />
     <WU/>
 	<FeaturesSection />
-    <!-- <Social /> -->
+    <Social />
     <Form />
 </main>
 
