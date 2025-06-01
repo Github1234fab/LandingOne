@@ -3,7 +3,7 @@
 	import HeroSection from '../Components/Hero.svelte';
 	import FeaturesSection from '../Components/Features.svelte';
     import WU from '../Components/WU.svelte';
-    // import Social from '../Components/Social.svelte';
+    import Social from '../Components/Social.svelte';
     import Form from '../Components/Form.svelte';
 </script>
 

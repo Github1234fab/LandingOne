@@ -1,6 +1,4 @@
-<script>
-	import Doodle5 from '../assets/doodle5.png';
-</script>
+
 
 <section class="features">
     <h2 class="features-offre">GRAND DESTOCKAGE</h2>
