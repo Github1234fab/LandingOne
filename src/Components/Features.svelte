@@ -1,10 +1,7 @@
-
-
 <section class="features">
-    <h2 class="features-offre">GRAND DESTOCKAGE</h2>
-    <h3 class="features-title"><span>Offre</span> valable du 1 juin au 27 septembre 2025 !</h3>
+	<h2 class="features-offre">GRAND DESTOCKAGE</h2>
+	<h3 class="features-title"><span>Offre</span> valable du 1 juin au 27 septembre 2025 !</h3>
 	<div class="features__wrapper">
-	
 		<div class="offer-card">
 			<h3>Panneaux offerts</h3>
 			<div class="imgA"></div>
@@ -30,11 +27,10 @@
 			<p>💡Réduction visible dès votre première facture.</p>
 			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
 		</div>
-		
 	</div>
-    <div class="wrapper__cta">
-        <a class="cta" href="tel:0673209421">Appelez-nous dès maintenant</a>
-    </div>
+	<div class="wrapper__cta">
+		<a class="cta" href="tel:0673209421">Appelez-nous dès maintenant</a>
+	</div>
 </section>
 
 <style>
@@ -68,16 +64,16 @@
 	.features__wrapper {
 		display: flex;
 		flex-direction: row;
-        flex-wrap: wrap;
+		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		position: relative;
 		gap: 20px;
 		z-index: 2;
 		color: white;
 		height: 100%;
 		z-index: 5;
 	}
+
 	.features-offre {
 		font-size: 1.5rem;
 		color: white;
@@ -85,7 +81,7 @@
 		text-align: center;
 		letter-spacing: 2px;
 		margin-top: 20px;
-        z-index: 3;
+		z-index: 3;
 	}
 	.features-title {
 		font-size: 4rem;
@@ -93,7 +89,7 @@
 		margin-bottom: 1rem;
 		text-align: center;
 		line-height: 5rem;
-        z-index: 3;
+		z-index: 3;
 	}
 	.features-title span {
 		position: relative;
@@ -105,18 +101,16 @@
 	}
 
 	.offer-card {
-		padding: 1rem;
+		padding: 30px;
 		background-color: transparent;
 		-webkit-backdrop-filter: blur(20px);
 		backdrop-filter: blur(20px);
 		border-radius: 12px;
-		/* box-shadow: 0 0px 10px 10px rgba(0, 0, 0, 0.18); */
 		border: 1px solid white;
-		width: 100%;
-		width: 100%;
 		text-align: center;
-		padding: 30px;
-        flex: 1 1 0;
+        min-height: 500px;
+		flex: 1 1 calc(50% - 10px);
+		box-sizing: border-box;
 	}
 	.imgA {
 		background-image: url('../assets/png-solair/panneaux-soleil.png');
@@ -124,21 +118,20 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 200px;
-		width: 100%;
+		width: 200px;
 		border-radius: 50%;
-		margin-bottom: 20px;
-
+		border: 1px solid white;
+		margin: 20px auto;
 	}
 	.imgB {
 		background-image: url('../assets/png-solair/panneaux-diagonale.png');
-		background-size: contain;
+		/* background-size: cover; */
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 200px;
-		width:200px;
-        border-radius: 20%;
-		margin-bottom: 20px;
-      
+		width: 200px;
+		border-radius: 50%;
+		margin: 20px auto;
 	}
 	.imgC {
 		background-image: url('../assets/png-solair/montage-panneaux.png');
@@ -146,9 +139,9 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 200px;
-		width: 100%;
-		border-radius: 10px;
-		margin-bottom: 20px;
+		width: 200px;
+		border-radius: 50%;
+		margin: 20px auto;
 	}
 	.imgD {
 		background-image: url('../assets/png-solair/économie-graphique.png');
@@ -156,9 +149,9 @@
 		background-position: center;
 		background-repeat: no-repeat;
 		height: 200px;
-		width: 100%;
-		border-radius: 10px;
-		margin-bottom: 20px;
+		width: 200px;
+		border-radius: 50%;
+		margin: 20px auto;
 	}
 	.offer-card h3 {
 		color: white;
@@ -170,10 +163,8 @@
 		margin-bottom: 2rem;
 		background-color: transparent;
 		border-radius: 10px;
-		/* border: 1px solid white; */
-		padding: 20px;
-		width: 70%;
-		margin: 30px auto;
+		width: 100%;
+		margin: 0px auto;
 	}
 
 	.wrapper__cta {
@@ -181,10 +172,8 @@
 		justify-content: center;
 		align-items: center;
 		margin: 0 auto;
-        width: 100%;
-        z-index: 5;
-      
-
+		width: 100%;
+		z-index: 5;
 	}
 	.cta {
 		background: linear-gradient(90deg, #d8a21a, var(--cta));
@@ -229,10 +218,9 @@
 	}
 
 	@media screen and (max-width: 768px) {
-		.offer-card {
-			max-width: 90%;
-			min-width: 90%;
-		}
+        .offer-card {
+		flex: 1 1 100%;
+	}
 		.features-title {
 			font-size: 3rem;
 			color: white;
@@ -252,17 +240,15 @@
 			margin-bottom: 2rem;
 			width: 100%;
 		}
-        .wrapper__cta {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		margin: 0px;
-        max-width: 90%;
-      
-	}
-    .cta{
-        min-width: 80%;
-	}
-		
+		.wrapper__cta {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 0px;
+			max-width: 90%;
+		}
+		.cta {
+			min-width: 80%;
+		}
 	}
 </style>

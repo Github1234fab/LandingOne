@@ -58,7 +58,7 @@ import insta from "../assets/insta.png";
 		height: 100%;
 		padding: 20px;
 		gap: 20px;
-		background-color: var(--text-blue);
+		background: linear-gradient(var(--text-blue), var(--primary-blue)) ;
 		padding: 2rem;
 		width: 100%;
 		margin: 0 auto;
@@ -116,6 +116,13 @@ import insta from "../assets/insta.png";
 		color: var(--yellow);
 		text-decoration: none;
 	}
+	textarea {
+		padding: 10px;
+		border-radius: 5px;
+		border: none;
+		width: 100%;
+		resize: vertical;
+	}
 	textarea::placeholder {
 		padding: 10px;
 	}
@@ -130,6 +137,10 @@ import insta from "../assets/insta.png";
 		cursor: pointer;
 		transition: transform 0.3s ease;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.271);
+		border-radius: 10px;
+	}
+	img:hover {
+		transform: scale(1.1);
 	}
 	@media screen and (max-width: 768px) {
 		form {
