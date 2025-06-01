@@ -2,7 +2,7 @@
 	import Video from '../assets/video-nuages.mp4';
 	import { onMount } from 'svelte';
 	import Doodle from '../assets/Doodle6.png';
-	import Logo from "../assets/LOGO-SOL'AIR-CONFORT.png";
+	import Logo from "../assets/logo-solairconfort.png";
 
 	let videoElement;
 
@@ -104,7 +104,7 @@
 	}
 
 	.logo {
-		width: 200px;
+		width: 300px;
 		height: auto;
 		z-index: 10;
 		margin: 40px auto;

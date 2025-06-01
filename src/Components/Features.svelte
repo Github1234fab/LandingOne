@@ -3,7 +3,7 @@
 	<h3 class="features-title"><span>Offre</span> valable du 1 juin au 27 septembre 2025 !</h3>
 	<div class="features__wrapper">
 		<div class="offer-card">
-			<h3>Panneaux offerts</h3>
+			<h3>Panneaux solaires offerts</h3>
 			<div class="imgA"></div>
 			<p>☀️ Pour toute installation entre 3 et 9 kWc.</p>
 			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
@@ -67,7 +67,7 @@
 		flex-wrap: wrap;
 		align-items: center;
 		justify-content: center;
-		gap: 5px;
+		gap: 10px;
 		z-index: 2;
 		color: white;
 		height: 100%;
@@ -104,12 +104,12 @@
 	.offer-card {
 		padding: 20px;
 		background-color: transparent;
-		-webkit-backdrop-filter: blur(20px);
-		backdrop-filter: blur(20px);
-		border-radius: 12px;
+		-webkit-backdrop-filter: blur(10px);
+		backdrop-filter: blur(10px);
+		border-radius: 42px 6px 24px 30px;
 		border: 1px solid white;
 		text-align: center;
-        min-height: 450px;
+        min-height: 500px;
 		flex: 1 1 calc(50% - 30px);
 		box-sizing: border-box;
 	}

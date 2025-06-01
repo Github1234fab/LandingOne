@@ -54,7 +54,7 @@
 		height: 100%;
 		padding: 20px;
 		gap: 20px;
-		background: linear-gradient(var(--text-blue), var(--primary-blue));
+		background: linear-gradient(var(--primary-blue), var(--text-blue));
 		padding: 2rem;
 		width: 100%;
 		margin: 0 auto;
@@ -94,10 +94,11 @@
 		padding: 0.75rem 1.5rem;
 		cursor: pointer;
 		border-radius: 5px;
-		margin-top: 2rem;
+		margin: 2rem auto;
 		border-radius: 10px;
 		font-size: 1rem;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.313);
+		width: 70%
 	}
 
 	button.cta:hover {

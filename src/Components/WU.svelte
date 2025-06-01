@@ -9,7 +9,7 @@
 	<h2 class="social-title">Pourquoi choisir SolairConfort ?</h2>
 	<div class="container__wrapper">
 		<div class="wrapper__p">
-			<h2>17 ans</h2>
+			<h2>17 ans d'activité</h2>
 			<img src={Solar} alt="" />
 			Niché au coeur de la Loire. L'entreprise SolairConfort est experte dans le domaine du solaire depuis 17 ans.
 		</div>
@@ -25,6 +25,11 @@
 		</div>
 	</div>
 	<img class="img-Yannick" src={Yannick} alt="">
+<p class="yannick-text">" Chez Solair Confort, nous prenons le temps de bien faire les choses.
+	 <br>Chaque installation est pensée pour durer, respectueuse de votre maison et de l’environnement. 
+	<br>C’est notre façon d’être utiles, simplement et durablement." 
+	<br> <span>Yannick Barraud, PDG de SolairConfort</span>
+</p>
 
 	<a class="cta" href="/#contact">Parlez-nous de votre projet</a>
 </section>
@@ -70,8 +75,8 @@
 		background-color: rgb(242, 242, 242);
 		padding: 20px;
 		border-radius: 10px;
-		max-height: 400px;
-		min-height: 400px;
+		max-height: 500px;
+		min-height: 500px;
 	}
 	.img-Yannick{
 		width: 300px;
@@ -79,6 +84,23 @@
 		border-radius: 50%;
 		object-fit: cover;
 		margin-top: 20px;
+		border: 6px solid var(--green);
+	}
+
+	.yannick-text {
+		font-size: 1.2rem;
+		color: var(--text-blue);
+		text-align: center;
+		max-width: 600px;
+		margin-top: 20px;
+		line-height: 1.5;
+		font-weight: 500;
+		letter-spacing: -1px;
+		font-family: Georgia, 'Times New Roman', Times, serif;
+	}
+	.yannick-text span {
+		font-weight: bold;
+		padding: 10px;
 	}
 	
 	.cta {
@@ -105,5 +127,21 @@
 		width: 50px;
 		height: 50px;
 
+	}
+
+	@media screen and (max-width: 700px) {
+		.wrapper__p {
+			flex: 1 1 100%;
+			max-width: 90%;
+			min-height: 300px;
+		}
+		.img-Yannick {
+			width: 200px;
+			height: 200px;
+		}
+		.yannick-text {
+			font-size: 1rem;
+			max-width: 90%;
+		}
 	}
 </style>
