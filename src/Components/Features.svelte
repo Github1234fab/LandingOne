@@ -11,20 +11,20 @@
 		<div class="offer-card">
 			<h3>Matériel garanti</h3>
 			<div class="imgB"></div>
-			<p>🛠️ Du matériel de qualité avec garantie constructeur.</p>
+			<p>🛠️ Matériel de qualité avec garantie constructeur.</p>
 			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
 		</div>
 		<div class="offer-card">
 			<h3>Pose certifiée</h3>
 			<div class="imgC"></div>
-			<p>✅ Installateurs RGE QualiPV 500 pour plus de confiance.</p>
+			<p>✅ Installation aux normes RGE QualiPV 500.</p>
 
 			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
 		</div>
 		<div class="offer-card">
 			<h3>Économies immédiates</h3>
 			<div class="imgD"></div>
-			<p>💡Réduction visible dès votre première facture.</p>
+			<p>💡Résultats visibles dès votre première facture.</p>
 			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
 		</div>
 	</div>
@@ -58,7 +58,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: linear-gradient(120deg, #d0620ec9 40%, #0d3758c7 80%);
+        background: linear-gradient(to bottom, #f86641, #f9a25fb9, #ffcc33);
 		z-index: 1;
 	}
 	.features__wrapper {
@@ -104,8 +104,8 @@
 	.offer-card {
 		padding: 20px;
 		background-color: transparent;
-		-webkit-backdrop-filter: blur(10px);
-		backdrop-filter: blur(10px);
+		-webkit-backdrop-filter: blur(15px);
+		backdrop-filter: blur(15px);
 		border-radius: 42px 6px 24px 30px;
 		border: 1px solid white;
 		text-align: center;
@@ -155,9 +155,9 @@
 		margin: 20px auto;
 	}
 	.offer-card h3 {
-		color: white;
+		color: var(--text-blue);
 		margin-bottom: 0.5rem;
-		font-size: 2rem;
+		font-size: 1.7rem;
 		font-weight: bolder;
 		text-align: center;
 		line-height: 2rem;
@@ -167,12 +167,15 @@
 		width: 100%;
 		margin: 0px auto;
 	}
+    .offer-card p{
+        color: var(--text-blue);
+    }
 
 	.wrapper__cta {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin: 20px auto;
+		margin: 40px auto;
 		width: 100%;
 		z-index: 5;
 	}

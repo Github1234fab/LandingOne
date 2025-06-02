@@ -16,12 +16,12 @@
 		<div class="wrapper__p">
 			<h2>+ de 100 chantiers par année</h2>
 			<img src={Tools} alt="" />
-			Nous réalisons plus d'une centaine d'installations par année entre Loire et Rhône, pour les particuliers, les collectivités et les entreprises.
+			Nous réalisons plus d'une centaine d'installations par an entre Loire et Rhône, pour les particuliers, les collectivités et les entreprises.
 		</div>
 		<div class="wrapper__p">
-			<h2>Suivis et garantie</h2>
+			<h2>Suivi et garantie</h2>
 			<img src={Hands} alt="" />
-			Faire confiance à SolairConfort, c'est investir dans des systèmes photovoltaïques fiables et de grande qualité.
+			Faire confiance à SolairConfort, c'est investir dans des systèmes photovoltaïques fiables et des installations de grande qualité.
 		</div>
 	</div>
 	<img class="img-Yannick" src={Yannick} alt="">

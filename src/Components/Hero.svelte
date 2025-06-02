@@ -107,7 +107,7 @@
 		width: 300px;
 		height: auto;
 		z-index: 10;
-		margin: 40px auto;
+		margin: 20px auto;
 	}
 	.video-background {
 		position: absolute;
@@ -175,5 +175,8 @@
             margin-bottom: 60px;
 			
 		}
+        .logo{
+            width: 200px;
+        }
 	}
 </style>

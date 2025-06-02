@@ -2,6 +2,7 @@
 	import FB from '../assets/fb.png';
 	import lin from '../assets/lin.png';
 	import insta from '../assets/insta.png';
+	import Logo from '../assets/logo-solairconfort.png';
 </script>
 
 <section id="contact">
@@ -40,8 +41,10 @@
 	<p>
 		<strong>SolairConfort</strong> – 23 Rue Louis Pergaud 42240 UNIEUX<br />
 		Tel : <a href="tel:0673209421">06 73 20 94 21</a><br />
-		Email : <a href="mailto:contact@solairconfort.fr">contact@solairconfort.fr</a>
+		Email : <a href="mailto:contact@solairconfort.fr">contact@solairconfort.fr</a><br>
+		site: <a href="https://solairconfort.fr">solairconfort.fr</a>
 	</p>
+	<img class="logo" src={Logo} alt="">
 </section>
 
 <style>
@@ -140,6 +143,14 @@
 	}
 	img:hover {
 		transform: scale(1.1);
+	}
+	.logo{
+		width: 200px;
+		height: auto;
+		margin: 20px auto;
+		border: none;
+		box-shadow: none;
+
 	}
 	@media screen and (max-width: 768px) {
 		form {
