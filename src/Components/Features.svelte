@@ -175,13 +175,13 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin: 40px auto;
+		margin: 0px auto;
 		width: 100%;
 		z-index: 5;
 	}
 	.cta {
-		background: linear-gradient(90deg, #d8a21a, var(--cta));
-		background-color: var(--cta);
+		/* background: linear-gradient(90deg, #d8a21a, var(--cta)); */
+		background-color: var(--text-blue);
 		color: white;
 		font-weight: 600;
 		border: none;
@@ -192,7 +192,7 @@
 		border-radius: 10px;
 		text-decoration: none;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.313);
-	
+        margin: 40px auto;
 		transition: 0.3s ease-in-out;
 	}
 	.cta:hover {
