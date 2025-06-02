@@ -34,9 +34,9 @@
 	</form>
 
 	<div class="wrapper__socialMedia">
-		<a href="https://www.linkedin.com/in/yannick-barraud-06546b283/"><img src={FB} alt="facebook" /></a>
-		<a href="https://www.instagram.com/solairconfort/"><img src={lin} alt="linkedIn" /></a>
-		<a href="https://www.facebook.com/profile.php?id=61566251125721"> <img src={insta} alt="instagram" /></a>
+		<a href=  "https://www.facebook.com/profile.php?id=61566251125721"><img src={FB} alt="facebook" /></a>
+		<a href="https://www.linkedin.com/in/yannick-barraud-06546b283/"><img src={lin} alt="linkedIn" /></a>
+		<a href="https://www.instagram.com/solairconfort/" > <img src={insta} alt="instagram" /></a>
 	</div>
 	<p>
 		<strong>SolairConfort</strong> – 23 Rue Louis Pergaud 42240 UNIEUX<br />
