@@ -24,7 +24,7 @@
 		</h1>
 		<div class="wrapper__subtitles">
 			<h2 class="hero-para-2">
-				<span>Profitez de nos soldes d'été </span> et économisez 20% sur votre installation de 3 à 9 kWc
+				<span>Profitez de nos soldes d'été </span> et économisez <span> 20% </span> sur votre installation de 3 à 9 kWc
 			</h2>
 
 			<h3 class="hero-para-3">Offre valable du 25 juin au 22 juillet 2025.</h3>
@@ -58,7 +58,6 @@
 		bottom: 0;
 		background: transparent;
 		background: linear-gradient(to bottom, #041e388a 20%, #77a9da65 40%, #041e38b6 100%);
-
 		z-index: 2;
 	}
 	.wrapper__hero {
