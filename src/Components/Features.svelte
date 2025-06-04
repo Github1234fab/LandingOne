@@ -1,31 +1,31 @@
 <section class="features">
-	<h2 class="features-offre">GRAND DESTOCKAGE</h2>
-	<h3 class="features-title"><span>Offre</span> valable du 1 juin au 27 septembre 2025 !</h3>
+	<!-- <h2 class="features-offre">GRAND DESTOCKAGE</h2> -->
+	<h3 class="features-title"><span>Offre</span> valable du 25 juin au 22 juillet 2025 !</h3>
 	<div class="features__wrapper">
 		<div class="offer-card">
 			<h3>Panneaux solaires offerts</h3>
 			<div class="imgA"></div>
 			<p>☀️ Pour toute installation entre 3 et 9 kWc.</p>
-			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
+			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
 		</div>
 		<div class="offer-card">
-			<h3>Matériel garanti</h3>
+			<h3>Matériel garanti 20 ans</h3>
 			<div class="imgB"></div>
 			<p>🛠️ Matériel de qualité avec garantie constructeur.</p>
-			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
+			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
 		</div>
 		<div class="offer-card">
 			<h3>Pose certifiée</h3>
 			<div class="imgC"></div>
 			<p>✅ Installation aux normes RGE QualiPV 500.</p>
 
-			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
+			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
 		</div>
 		<div class="offer-card">
 			<h3>Économies immédiates</h3>
 			<div class="imgD"></div>
 			<p>💡Résultats visibles dès votre première facture.</p>
-			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">En savoir +</a></div>
+			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
 		</div>
 	</div>
 	<div class="wrapper__cta">
@@ -39,10 +39,11 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		background-image: url(../assets/png-solair/panneaux.png);
-		background-size: cover;
+		/* background-image: url(../assets/png-solair/panneaux.png); */
+		/* background: linear-gradient(var(--text-blue), var(--primary-blue)); */
+		/* background-size: cover;
 		background-position: center;
-		background-repeat: no-repeat;
+		background-repeat: no-repeat; */
 		color: var(--text-blue);
 		height: 100%;
 		width: 100%;
@@ -58,7 +59,7 @@
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background: linear-gradient(to bottom, #f86641, #f9a25fb9, #ffcc33);
+		background: linear-gradient(to bottom, #f86641, #f9a25fb9, #c49d27);
 		z-index: 1;
 	}
 	.features__wrapper {
@@ -75,7 +76,7 @@
 		width: 80%;
 	}
 
-	.features-offre {
+	/* .features-offre {
 		font-size: 1.5rem;
 		color: white;
 		margin-bottom: 1rem;
@@ -83,7 +84,7 @@
 		letter-spacing: 2px;
 		margin-top: 20px;
 		z-index: 3;
-	}
+	} */
 	.features-title {
 		font-size: 4rem;
 		color: white;
@@ -91,6 +92,7 @@
 		text-align: center;
 		line-height: 5rem;
 		z-index: 3;
+		padding: 20px;
 	}
 	.features-title span {
 		position: relative;
@@ -104,8 +106,8 @@
 	.offer-card {
 		padding: 20px;
 		background-color: transparent;
-		-webkit-backdrop-filter: blur(15px);
-		backdrop-filter: blur(15px);
+		/* -webkit-backdrop-filter: blur(15px);
+		backdrop-filter: blur(15px); */
 		border-radius: 42px 6px 24px 30px;
 		border: 1px solid white;
 		text-align: center;
@@ -156,6 +158,7 @@
 	}
 	.offer-card h3 {
 		color: var(--text-blue);
+		/* color: white; */
 		margin-bottom: 0.5rem;
 		font-size: 1.7rem;
 		font-weight: bolder;
@@ -169,6 +172,8 @@
 	}
 	.offer-card p {
 		color: var(--text-blue);
+		font-weight: 600;
+		/* color: white; */
 	}
 
 	.wrapper__cta {
@@ -180,10 +185,10 @@
 		z-index: 5;
 	}
 	.cta {
-		/* background: linear-gradient(90deg, #d8a21a, var(--cta)); */
-		background-color: var(--text-blue);
+		background: var(--text-blue);
+		/* background-color: var(--cta); */
 		color: white;
-		font-weight: 600;
+		font-weight: 700;
 		border: none;
 		padding: 2rem 1.5rem;
 		text-align: center;
@@ -203,6 +208,7 @@
 		justify-content: center;
 		align-items: center;
 		width: 100%;
+		margin-top: 2rem;
 	}
 
 	.cta-offre {
@@ -212,6 +218,7 @@
 		text-decoration: none;
 		padding: 1rem 1.5rem;
 		color: white;
+		font-weight: 600;
 		margin-top: 30px;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.235);
 		transition: 0.3s ease-in-out;

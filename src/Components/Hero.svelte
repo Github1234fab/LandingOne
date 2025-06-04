@@ -2,15 +2,13 @@
 	import Video from '../assets/video-nuages.mp4';
 	import { onMount } from 'svelte';
 	import Doodle from '../assets/Doodle6.png';
-	import Logo from "../assets/logo-solairconfort.png";
+	import Logo from '../assets/logo-solairconfort.png';
 
 	let videoElement;
 
 	onMount(() => {
 		videoElement.playbackRate = 2.0; // 2x plus rapide
 	});
-
-	
 </script>
 
 <section class="hero">
@@ -24,12 +22,16 @@
 		<h1 class="hero-title">
 			Des panneaux solaires <span>gratuits <img src={Doodle} class="doodle" alt="" /></span> pour votre toit !
 		</h1>
-		<p class="hero-para">
-			Pour toute installation de 3 à 9 kWc, nous vous <span>offrons les panneaux photovoltaïques </span>. <br />Offre valable jusqu'au 24 septembre.
-		</p>
-		<div class="wrapper__cta">
-			<a class="cta" href="/#contact"> Devis gratuit</a>
-			<a class="cta-call" href="tel:0673209421"> Appelez-nous</a>
+		<div class="wrapper__subtitles">
+			<h2 class="hero-para-2">
+				<span>Profitez de nos soldes d'été </span> et économisez 20% sur votre installation de 3 à 9 kWc
+			</h2>
+
+			<h3 class="hero-para-3">Offre valable du 25 juin au 22 juillet 2025.</h3>
+			<div class="wrapper__cta">
+				<a class="cta" href="/#contact"> Obtener votre devis gratuit</a>
+				<a class="cta-call" href="tel:0673209421"> Appelez-nous</a>
+			</div>
 		</div>
 	</div>
 </section>
@@ -40,7 +42,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-        background: linear-gradient(var(--text-blue), var(--primary-blue));
+		background: linear-gradient(var(--text-blue), var(--primary-blue));
 		height: 100%;
 		position: relative;
 		z-index: 1;
@@ -65,10 +67,18 @@
 		align-items: center;
 		justify-content: center;
 		position: relative;
-		gap: 20px;
+		gap: 15px;
 		z-index: 3;
 		color: white;
 		height: 100%;
+	}
+	.wrapper__subtitles {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 10px;
+		margin-top: 20px;
 	}
 	.hero-title {
 		font-size: 3rem;
@@ -82,18 +92,27 @@
 		position: relative;
 		color: #ffffff;
 	}
-	.hero-para {
-		font-weight: 400;
-		font-size: 1.2rem;
+	.hero-para-2 {
+		font-weight: 500;
+		font-size: 1.3rem;
 		line-height: 1.8rem;
 		color: rgb(255, 255, 255);
-		margin-bottom: 2rem;
 		text-align: center;
 		letter-spacing: -0.2px;
 	}
-	.hero-para span {
-		font-weight: 700;
+	.hero-para-2 span {
+		font-weight: 600;
 		color: var(--yellow);
+	}
+
+	.hero-para-3 {
+		font-weight: 500;
+		font-size: 1.2rem;
+		line-height: 1.5rem;
+		color: rgb(255, 255, 255);
+		margin-bottom: 2.5rem;
+		text-align: center;
+		letter-spacing: 0px;
 	}
 	.doodle {
 		width: 172px;
@@ -122,15 +141,15 @@
 		z-index: 1;
 	}
 	.wrapper__cta {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: row;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
 		margin-bottom: 100px;
-        gap: 10px;
+		gap: 10px;
 	}
 	.cta {
-		background: linear-gradient(90deg, #d8a21a, var(--cta));
+		background: var(--cta);
 		background-color: var(--cta);
 		color: white;
 		font-weight: 600;
@@ -143,6 +162,7 @@
 		text-decoration: none;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.313);
 		transition: 0.4s ease-in-out;
+		min-width: 300px;
 	}
 	.cta-call {
 		background-color: var(--yellow);
@@ -156,7 +176,7 @@
 		border-radius: 10px;
 		text-decoration: none;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.313);
-
+		min-width: 300px;
 		transition: 0.4s ease-in-out;
 	}
 	.cta:hover {
@@ -170,13 +190,12 @@
 
 	@media screen and (max-width: 768px) {
 		.wrapper__cta {
-            flex-direction: column;
-            gap: 10px;
-            margin-bottom: 60px;
-			
+			flex-direction: column;
+			gap: 10px;
+			margin-bottom: 60px;
 		}
-        .logo{
-            width: 200px;
-        }
+		.logo {
+			width: 200px;
+		}
 	}
 </style>
