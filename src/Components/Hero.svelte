@@ -86,6 +86,7 @@
 		margin-top: 50px;
 		margin-bottom: 2rem;
 		text-align: center;
+		padding: 20px;
 	}
 	.hero-title span {
 		position: relative;
