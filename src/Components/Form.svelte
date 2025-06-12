@@ -90,8 +90,8 @@
 	}
 
 	button.cta {
-		background-color: #d8a21a;
-		color: white;
+		background-color: var(--yellow);
+		color: var(--text-blue);
 		font-weight: bold;
 		border: none;
 		padding: 0.75rem 1.5rem;

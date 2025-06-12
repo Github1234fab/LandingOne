@@ -185,9 +185,9 @@
 		z-index: 5;
 	}
 	.cta {
-		background: var(--text-blue);
-		/* background-color: var(--cta); */
-		color: white;
+
+		background-color: var(--yellow);
+		color: var(--text-blue);
 		font-weight: 700;
 		border: none;
 		padding: 2rem 1.5rem;
