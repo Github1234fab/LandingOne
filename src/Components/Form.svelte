@@ -8,7 +8,7 @@
 <section id="contact">
 	<h2>Obtenez votre devis gratuit</h2>
 
-	<form name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+	<form id="form" name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
 		<label
 			>Nom :
