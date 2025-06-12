@@ -1,5 +1,5 @@
 <script>
-	import Video from '../assets/video-nuages-V2.mp4';
+	import Video from '../assets/video-nuages.mp4';
 	import { onMount } from 'svelte';
 	import Doodle from '../assets/Doodle6.png';
 	import Logo from '../assets/logo-solairconfort.png';
@@ -7,7 +7,7 @@
 	let videoElement;
 
 	onMount(() => {
-		videoElement.playbackRate = 2.0; // 2x plus rapide
+		videoElement.playbackRate = 6.0; // 2x plus rapide
 	});
 </script>
 
