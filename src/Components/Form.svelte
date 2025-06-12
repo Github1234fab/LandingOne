@@ -30,7 +30,7 @@
 			<textarea name="message" rows="4" required></textarea>
 		</label><br />
 
-		<button class="cta" type="submit">Envoyer</button>
+		<button id="submitForm" class="cta" type="submit">Envoyer</button>
 	</form>
 
 	<div class="wrapper__socialMedia">
