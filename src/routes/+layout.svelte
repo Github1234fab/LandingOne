@@ -15,8 +15,6 @@
     message: "Ce site utilise des cookies pour améliorer votre expérience.",
     dismiss: "Refuser",
     allow: "Accepter",
-    link: "Personnaliser",
-    href: "/politique-de-confidentialite"
   },
   onInitialise: function (status) {
     const didConsent = this.hasConsented();
