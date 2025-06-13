@@ -6,30 +6,30 @@
 			<h3>Panneaux solaires offerts</h3>
 			<div class="imgA"></div>
 			<p>☀️ Pour toute installation entre 3 et 9 kWc.</p>
-			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
+			<div  class="wrapper__cta-offre"><a id="call-button" class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
 		</div>
 		<div class="offer-card">
 			<h3>Matériel garanti 20 ans</h3>
 			<div class="imgB"></div>
 			<p>🛠️ Matériel de qualité avec garantie constructeur.</p>
-			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
+			<div class="wrapper__cta-offre"><a id="call-button"  class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
 		</div>
 		<div class="offer-card">
 			<h3>Pose certifiée</h3>
 			<div class="imgC"></div>
 			<p>✅ Installation aux normes RGE QualiPV 500.</p>
 
-			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
+			<div class="wrapper__cta-offre"><a id="call-button" class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
 		</div>
 		<div class="offer-card">
 			<h3>Économies immédiates</h3>
 			<div class="imgD"></div>
 			<p>💡Résultats visibles dès votre première facture.</p>
-			<div class="wrapper__cta-offre"><a class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
+			<div class="wrapper__cta-offre"><a id="call-button" class="cta-offre" href="tel:0673209421">Parler à un conseiller</a></div>
 		</div>
 	</div>
 	<div class="wrapper__cta">
-		<a class="cta" href="tel:0673209421">Appelez-nous dès maintenant</a>
+		<a id="call-button" class="cta" href="tel:0673209421">Appelez-nous dès maintenant</a>
 	</div>
 </section>
 
