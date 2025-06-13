@@ -11,7 +11,7 @@
 	});
 </script>
 
-<section class="hero">
+<section id="offre" class="hero">
 	<video autoplay muted loop id="myVideo" playsinline bind:this={videoElement} class="video-background">
 		<source src={Video} type="video/mp4" />
 		Votre navigateur ne supporte pas la balise vidéo.

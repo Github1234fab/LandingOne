@@ -1,4 +1,4 @@
-<section class="features">
+<section id="avantages" class="features">
 	<!-- <h2 class="features-offre">GRAND DESTOCKAGE</h2> -->
 	<h3 class="features-title"><span>Offre</span> valable du 25 juin au 22 juillet 2025 !</h3>
 	<div class="features__wrapper">

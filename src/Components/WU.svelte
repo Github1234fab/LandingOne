@@ -5,7 +5,7 @@
 	import Yannick from '../assets/Yannick.jpg';
 </script>
 
-<section class="social">
+<section class="social" id="installation">
 	<h2 class="social-title">Pourquoi choisir SolairConfort ?</h2>
 	<div class="container__wrapper">
 		<div class="wrapper__p">
