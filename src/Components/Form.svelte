@@ -6,21 +6,7 @@
 	import { onMount } from 'svelte';
 	import { on } from 'svelte/events';
 
-
 	let form;
-
-onMount(() => {
-  form.addEventListener('submit', (e) => {
-	// Laisser la soumission se faire (Netlify ou autre), puis rediriger
-	setTimeout(() => {
-	  window.location.href = '/merci';
-	}, 500); // délai court pour permettre l'envoi ou déclenchement des balises
-  });
-});
-
-
-	
-
 
 </script>
 
