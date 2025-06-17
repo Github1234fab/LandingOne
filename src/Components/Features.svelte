@@ -39,15 +39,10 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		/* background-image: url(../assets/png-solair/panneaux.png); */
-		/* background: linear-gradient(var(--text-blue), var(--primary-blue)); */
-		/* background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat; */
 		color: var(--text-blue);
 		height: 100%;
 		width: 100%;
-		padding: 20px;
+		padding: 10px;
 		gap: 40px;
 		position: relative;
 		z-index: 0;
@@ -76,15 +71,6 @@
 		width: 80%;
 	}
 
-	/* .features-offre {
-		font-size: 1.5rem;
-		color: white;
-		margin-bottom: 1rem;
-		text-align: center;
-		letter-spacing: 2px;
-		margin-top: 20px;
-		z-index: 3;
-	} */
 	.features-title {
 		font-size: 4rem;
 		color: white;
@@ -185,7 +171,6 @@
 		z-index: 5;
 	}
 	.cta {
-
 		background-color: var(--yellow);
 		color: var(--text-blue);
 		font-weight: 700;
@@ -212,19 +197,19 @@
 	}
 
 	.cta-offre {
-		background-color: var(--green);
+		background-color: var(--yellow);
 		border: 1px solid white;
 		border-radius: 10px;
 		text-decoration: none;
 		padding: 1rem 1.5rem;
-		color: white;
+		color: var(--text-blue);
 		font-weight: 600;
 		margin-top: 30px;
 		box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.235);
 		transition: 0.3s ease-in-out;
 	}
 	.cta-offre:hover {
-		background-color: var(--yellow);
+		background-color: var(--green);
 		color: black;
 	}
 

@@ -149,8 +149,8 @@
 		gap: 10px;
 	}
 	.cta {
-		background: var(--cta);
-		background-color: var(--cta);
+	
+		background-color: var(--text-blue);
 		color: white;
 		font-weight: 600;
 		border: none;
@@ -181,11 +181,11 @@
 	}
 	.cta:hover {
 		background: var(--green);
-		/* box-shadow: 0px 10px 30px 4px rgba(0, 0, 0, 0.616); */
+		color: var(--text-blue);
 	}
 	.cta-call:hover {
-		background-color: var(--text-blue);
-		color: white;
+		background: var(--green);
+		color: var(--text-blue);
 	}
 
 	@media screen and (max-width: 768px) {

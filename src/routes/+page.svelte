@@ -8,11 +8,12 @@
 </script>
 
 <main>
-	<HeroSection />
+	<HeroSection/>
+	<FeaturesSection/>
+	<Form />
     <WU/>
-	<FeaturesSection />
     <Social />
-    <Form />
+
 </main>
 
 <style>
@@ -21,7 +22,7 @@
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		gap: 10px;
+		gap: 0px;
 		height: 100%;
 		margin: 0 auto;
 		box-shadow: 0 0px 20px rgba(0, 0, 0, 0.39);
