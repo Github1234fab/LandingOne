@@ -29,7 +29,7 @@
 
 			<h3 class="hero-para-3">Offre valable du 25 juin au 22 juillet 2025.</h3>
 			<div class="wrapper__cta">
-				<a  class="cta" href="/#contact"> Obtener votre devis gratuit</a>
+				<a  class="cta" href="/#contact"> Obtenez votre devis gratuit</a>
 				<a id="call-button" class="cta-call" href="tel:0673209421"> Appelez-nous</a>
 			</div>
 		</div>
