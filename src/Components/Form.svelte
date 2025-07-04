@@ -3,64 +3,38 @@
 	import lin from '../assets/lin.png';
 	import insta from '../assets/insta.png';
 	import Logo from '../assets/logo-solairconfort.png';
-	import { onMount } from 'svelte';
-	onMount(() => {
-    const form = document.getElementById('form');
-    if (form) {
-      form.addEventListener('submit', function(event) {
-        // Empêche la soumission par défaut du formulaire pour gérer la redirection manuellement
-        event.preventDefault();
+	// let submitted = false;
 
-        // Déclenche la balise de conversion Google Ads si gtag est disponible
-        if (window.gtag) {
-          gtag('event', 'conversion', { send_to: 'AW-17160903163/tXCACLnDptkaEPuz-vY_' });
-        }
-
-        // Soumet le formulaire à Netlify
-        const formData = new FormData(form);
-        fetch('/', {
-          method: 'POST',
-          headers: { "Content-Type": "application/x-www-form-urlencoded" },
-          body: new URLSearchParams(formData).toString()
-        })
-        .then(() => {
-          // Redirige vers la page de remerciement après la soumission réussie
-          window.location.href = '/merci';
-        })
-        .catch((error) => {
-          console.error('Error:', error);
-        });
-      });
-    }
-  });
+	// function handleClick() {
+	// 	submitted = true;
+	// }
 </script>
 
 <section id="contact">
 	<h2>Obtenez votre devis gratuit</h2>
-	<form id="form" name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+	<form name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true" netlify>
 		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
-		<!-- <input type="hidden" name="bot-field" /> -->
-	
+		<input type="hidden" name="bot-field" />
+
 		<label>
-		  Nom :
-		  <input type="text" name="name" required />
+			Nom :
+			<input type="text" name="name" required />
 		</label><br />
 		<label>
-		  Email :
-		  <input type="email" name="email" required />
+			Email :
+			<input type="email" name="email" required />
 		</label><br />
 		<label>
-		  Téléphone :
-		  <input type="tel" name="phone" required />
+			Téléphone :
+			<input type="tel" name="phone" required />
 		</label><br />
 		<label>
-		  Votre projet :
-		  <textarea name="message" rows="4" required></textarea>
+			Votre projet :
+			<textarea name="message" rows="4" required></textarea>
 		</label><br />
-		<button type="submit" class="cta" id="submitForm">
-		  Obtenir mon devis gratuit
-		</button>
-	  </form>
+
+		<button type="submit" class="cta"> Obtenir mon devis gratuit </button>
+	</form>
 
 	<div class="wrapper__socialMedia">
 		<a href="https://www.facebook.com/profile.php?id=61566251125721"><img src={FB} alt="facebook" /></a>
