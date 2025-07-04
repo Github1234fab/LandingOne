@@ -14,7 +14,7 @@
 <main id="merci" class="merci-page">
 	<h1>Merci pour votre demande !</h1>
 	<br />
-	<p>Nous vous recontacterons dans les plus brefs délais.</p>
+	<p>Nous vous contactons dans les plus brefs délais.</p>
 	<br />
 	<a href="/">Revenir sur l'offre</a>
 </main>

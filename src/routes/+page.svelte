@@ -1,10 +1,18 @@
 <script>
+	import { onMount } from 'svelte';
 	import './style.css';
 	import HeroSection from '../Components/Hero.svelte';
 	import FeaturesSection from '../Components/Features.svelte';
     import WU from '../Components/WU.svelte';
     import Social from '../Components/social.svelte';
     import Form from '../Components/Form.svelte';
+
+	onMount(() => {
+		const form = document.querySelector('form[name="contact"]');
+		if (form) {
+			form.setAttribute('action', '/merci');
+		}
+	});
 </script>
 
 <main>
