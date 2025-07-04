@@ -1,39 +1,11 @@
 <script>
-	// import FB from '../assets/fb.png';
-	// import lin from '../assets/lin.png';
-	// import insta from '../assets/insta.png';
-	// import Logo from '../assets/logo-solairconfort.png';
-
+	import FB from '../assets/fb.png';
+	import lin from '../assets/lin.png';
+	import insta from '../assets/insta.png';
+	import Logo from '../assets/logo-solairconfort.png';
 </script>
 
-
-<form
-		name="contact-form-solairConfort"
-		method="POST"
-		netlify-honeypot="bot-field"
-		data-netlify="true"
-		class="form"
-	>
-		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
-
-		<div class="wrapper-inputs">
-			<input name="nom" type="text" id="nom" required placeholder="Nom" />
-
-			<input name="prenom" type="text" id="prenom" required placeholder="Prénom" />
-		</div>
-
-		<div class="wrapper-inputs">
-			<input name="email" type="email" id="email" required placeholder="Adresse mail" />
-
-			<input name="telephone" type="tel" id="telephone" required placeholder="Téléphone" />
-		</div>
-
-		<textarea name="demande" id="demande" class="demande" placeholder="Votre demande"></textarea>
-
-		<button type="submit">Envoyez</button>
-	</form>
-
-<!-- <section id="contact">
+<section id="contact">
 	<h2>Obtenez votre devis gratuit</h2>
 	<form name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true" netlify>
 		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
@@ -69,9 +41,9 @@
 		site: <a href="https://solairconfort.fr">solairconfort.fr</a>
 	</p>
 	<img class="logo" src={Logo} alt="" />
-</section> -->
+</section>
 
-<!-- <style>
+<style>
 	#contact {
 		display: flex;
 		flex-direction: column;
@@ -180,4 +152,4 @@
 			width: 90%;
 		}
 	}
-</style> -->
+</style>
