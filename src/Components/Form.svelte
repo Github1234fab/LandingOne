@@ -8,13 +8,13 @@
 
 
 <form
-		name="contact-form-gralypho"
+		name="contact-form-solairConfort"
 		method="POST"
 		netlify-honeypot="bot-field"
 		data-netlify="true"
 		class="form"
 	>
-		<input type="hidden" name="form-name" value="contact-form-gralypho" />
+		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
 
 		<div class="wrapper-inputs">
 			<input name="nom" type="text" id="nom" required placeholder="Nom" />
