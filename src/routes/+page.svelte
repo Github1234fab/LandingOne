@@ -7,12 +7,7 @@
     import Social from '../Components/social.svelte';
     import Form from '../Components/Form.svelte';
 
-	onMount(() => {
-		const form = document.querySelector('form[name="contact"]');
-		if (form) {
-			form.setAttribute('action', '/merci');
-		}
-	});
+	
 </script>
 
 <main>

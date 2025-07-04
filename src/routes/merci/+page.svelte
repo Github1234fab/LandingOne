@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 	import { onMount } from 'svelte';
 
 	onMount(() => {
@@ -27,4 +27,4 @@
 		text-align: center;
 		font-family: Poppins, sans-serif;
 	}
-</style>
+</style> -->
