@@ -26,7 +26,7 @@
 			<textarea name="message" rows="4" required></textarea>
 		</label><br />
 
-		<button type="submit" class="cta"> Obtenir mon devis gratuit </button>
+		<button type="submit" class="cta">Envoyer</button>
 	</form>
 
 	<div class="wrapper__socialMedia">
