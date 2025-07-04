@@ -3,17 +3,29 @@
 	import lin from '../assets/lin.png';
 	import insta from '../assets/insta.png';
 	import Logo from '../assets/logo-solairconfort.png';
-	import { onMount } from 'svelte';
-	import { on } from 'svelte/events';
+
 
 	let form;
+	let isSent = false;
+
+	function handleSubmit() {
+		if (!isSent && typeof gtag !== 'undefined') {
+			gtag('event', 'conversion', {
+				send_to: 'AW-17160903163/tXCACLnDptkaEPuz-vY_',
+				value: 1.0,
+				currency: 'EUR'
+			});
+			isSent = true;
+		}
+	}
 
 </script>
 
 <section id="contact">
 	<h2>Obtenez votre devis gratuit</h2>
 
-	<form id="form" name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/merci">
+	<form id="form" name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/merci" on:submit={handleSubmit}
+	bind:this={form}>
 		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
 		<input type="hidden" name="bot-field" />
 		<!-- <input type="hidden" name="redirect" value="/merci" /> -->
