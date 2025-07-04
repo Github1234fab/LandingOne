@@ -13,9 +13,12 @@
 <section id="contact">
 	<h2>Obtenez votre devis gratuit</h2>
 
-	<form id="form" name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+	<form id="form" name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true" action="/merci">
 		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
-		<input type="hidden" name="redirect" value="/merci" />
+		<p hidden>
+			<label>Don’t fill this out: <input name="bot-field" /></label>
+		  </p>
+		<!-- <input type="hidden" name="redirect" value="/merci" /> -->
 	
 		<label
 			>Nom :
@@ -37,7 +40,8 @@
 			<textarea name="message" rows="4" required></textarea>
 		</label><br />
 
-		<button id="submitForm" class="cta" type="submit">Obtenir mon devis gratuit</button>
+		<button id="submitForm" class="cta" >Obtenir mon devis gratuit</button>
+		<!-- type="submit" -->
 	</form>
 
 	<div class="wrapper__socialMedia">

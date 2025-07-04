@@ -10,6 +10,7 @@
 	});
 </script>
 
+
 <main id="merci" class="merci-page">
 	<h1>Merci pour votre demande !</h1>
 	<br />
