@@ -39,7 +39,7 @@
 	<h2>Obtenez votre devis gratuit</h2>
 	<form id="form" name="contact-form-solairConfort" method="POST" netlify-honeypot="bot-field" data-netlify="true">
 		<input type="hidden" name="form-name" value="contact-form-solairConfort" />
-		<input type="hidden" name="bot-field" />
+		<!-- <input type="hidden" name="bot-field" /> -->
 	
 		<label>
 		  Nom :
